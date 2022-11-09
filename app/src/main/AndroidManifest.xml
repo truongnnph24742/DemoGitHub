@@ -13,6 +13,13 @@
         android:theme="@style/Theme.DemoGitHub"
         tools:targetApi="31">
         <activity
+            android:name=".lam_nghe_si"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".TrangChu"
             android:exported="false">
             <meta-data
